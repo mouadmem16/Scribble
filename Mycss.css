@@ -1,0 +1,102 @@
+.root{
+    -fx-background-color: #ffffff;
+}
+
+.alert{
+    -fx-background-image: url("backgroundConnection.jpg");
+    -fx-background-size: 310px 400px;
+    -fx-background-repeat: none;
+}
+
+.labelInAlert{
+    -fx-background-color: transparent;
+
+}
+
+.usersList{
+    -fx-background-color: #eeeeee;
+}
+
+.userListItem{
+    -fx-background-image: url("user.jpg");
+    -fx-background-size: 200px 40px;
+    -fx-background-repeat: none;
+    -fx-text-fill: white;
+    -fx-font-family: Serif;
+    -fx-font-weight: BOLD ;
+    -fx-border-color: white;
+    -fx-border-width: 2px;
+}
+
+.NameBox{
+    -fx-background-image: url("user.jpg");
+    -fx-background-size: 250px 50px;
+    -fx-background-repeat: none;
+    -fx-text-fill: white;
+    -fx-font-family: Serif;
+    -fx-font-weight: BOLD ;
+    -fx-border-color: white;
+    -fx-border-width: 2px;
+}
+
+.chatpane{
+    -fx-background-color:transparent;
+}
+
+.bar{
+    -fx-background-color: rgba(102, 0, 204, 0.2);
+}
+
+.btn{
+    -fx-background-color: #fff;
+    -fx-font-family: Serif;
+    -fx-font-weight: BOLD ;
+    -fx-cursor: hand;
+    -fx-text-fill: #6600cc;
+}
+
+.btn:selected{
+    -fx-background-color: #dadada;
+}
+
+.wordBox{
+    -fx-background-color: rgba(102, 0, 204, 0.2);
+}
+
+.wordBox .label1{
+    -fx-text-fill: rgba(102, 0, 204, 0);
+    -fx-font-family: Serif;
+    -fx-font-weight: BOLD ;
+}
+
+.wordBox:hover .label1{
+    -fx-text-fill: rgb(102, 0, 204);
+}
+
+.time{
+    -fx-text-fill: #000;
+    -fx-min-width: 30px;
+    -fx-border-color: blue;
+    -fx-background-color: #fff;
+}
+
+.message-box{
+    -fx-background-color: transparent;
+    -fx-background-image: url("message-box.jpg");
+    -fx-background-size: 250px 40px;
+    -fx-background-repeat: none;
+}
+
+.chatpane Label{
+    -fx-font-family: Serif;
+    -fx-padding: 5px;
+    -fx-background-color: rgba(102, 0, 204, 0.2);
+    -fx-hgap: 20px;
+    -fx-wrap-text: true;
+    -fx-max-width: 250px;
+    -fx-background-radius: 50px;
+
+    -fx-border-radius: 50px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0), 10, 0, 0, 0);
+}
+
