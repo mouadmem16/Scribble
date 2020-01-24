@@ -1,5 +1,5 @@
 # Scribble
-[Scribble](http://scribble.io/) game using javafx 
+[Scribble](https://skribbl.io/) game using javafx 
 
 you can find the demonstration video in [youtube].
 
